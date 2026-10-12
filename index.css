@@ -1,0 +1,99 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+@font-face {
+    font-family: 'Cursed Timer ULiL Font';
+    src: url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+}
+/*Need to fix the timer font completely
+Change the background colour
+have the timer boxes resize nicely when the window size is changed.*/
+
+
+body {
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 150px;
+    justify-content: center
+}
+
+#home_container {
+
+}
+
+#guest_container {
+
+}
+
+#homeCount {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 80px;
+    background-color: black;
+    height: 120px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#guestCount {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 80px;
+    background-color: black;
+    height: 120px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.buttonsH {
+    height: 45px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buttonsG {
+    height: 45px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+}
+
+.scoreButton {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 45px;
+    width: 45px;
+    background-color: #1B244A;
+    border-color: #9AABD8;
+    border-width: 2px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    
+}
+
+#titles {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 35px;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    margin: 0px;
+}
